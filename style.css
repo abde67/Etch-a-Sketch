@@ -1,0 +1,8 @@
+#container{
+    display: flex;
+    align-items: center;
+    width: 960px;
+    border: 2px black solid;
+    height: 960px;
+    flex-wrap: wrap;
+}
