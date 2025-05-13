@@ -1,8 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 #container{
     display: flex;
     align-items: center;
-    width: 960px;
+    width: 850px;
     border: 2px black solid;
-    height: 960px;
+    height: 850px;
     flex-wrap: wrap;
+
+}
+input{
+    background-color: rgb(47, 36, 61);
+    color: rgb(209, 121, 121);
+    width: 200px;
+    border-radius: 15px;
+ padding: 10px 0;
+
+}
+#inputs{
+margin-bottom: 30px;
+
 }
